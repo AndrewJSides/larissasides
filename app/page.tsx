@@ -86,7 +86,7 @@ export default function Home() {
   const Biography = () => {
     return (
       <>
-        <div className="w-3/8 p-4">
+        <div className="w-3/8 ml-2 mt-2">
           <Image
             className="rounded-3xl border-4 border-black/80"
             src="/headshot3.jpg"
@@ -100,7 +100,7 @@ export default function Home() {
             Larissa Sides
           </div>
         </div>
-        <div className="text-xl w-1/4 pt-24 text-center text-slate-800">
+        <div className="text-lg w-1/4 pt-24 text-center text-slate-800">
           <div className="text-3xl text-black">About Me</div>
           <br />
           Experienced Emergency Medical Technician with a demonstrated history
@@ -358,7 +358,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col bg-[#6A988B] w-3/4 h-screen">
-        <div className="flex flex-row w-full  h-full border-2 border-black p-4">
+        <div className="flex flex-row w-full h-full ml-4 pt-8">
           {items.find((item) => item.key == selected)?.render()}
         </div>
       </div>
