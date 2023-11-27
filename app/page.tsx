@@ -77,21 +77,21 @@ export default function Home() {
         </header>
         <div className="p-8 text-lg text-slate-800">
           {" "}
-          I'm a passionate healthcare professional dedicated to delivering
+          I&apos;m a passionate healthcare professional dedicated to delivering
           top-notch patient care.
           {<br />}
           My career goals include furthering my expertise in healthcare,
           especially in nursing and patient care, as I work towards earning my
           doctorate in nursing practice. My journey has always been about
-          embracing continuous learning and growth. I'm excited to apply my
+          embracing continuous learning and growth. I&apos;m excited to apply my
           background in nursing and nutrition to enhance the well-being of
-          patients, whether it's in high-stress critical care scenarios,
+          patients, whether it&apos;s in high-stress critical care scenarios,
           clinical settings, or educational roles. My mission is to have a
           positive impact on the healthcare field by using my knowledge,
           empathy, and critical thinking skills to ensure the best outcomes for
-          patients and their families. Whether I'm at the bedside providing
-          direct patient care or serving as a nurse practitioner, I'm committed
-          to making a difference
+          patients and their families. Whether I&apos;m at the bedside providing
+          direct patient care or serving as a nurse practitioner, I&apos;m
+          committed to making a difference
         </div>
       </div>
     );
