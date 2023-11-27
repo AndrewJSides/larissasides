@@ -246,7 +246,7 @@ export default function Home() {
                 <td>
                   <Image
                     className="rounded-3xl border-2 border-black/50 shadow-2xl"
-                    src="/wv.jpg"
+                    src={"/wv.jpg"}
                     alt="Rural Metro Logo"
                     width={40}
                     height={40}
@@ -260,6 +260,21 @@ export default function Home() {
           </table>
         </div>
       </>
+    );
+  };
+
+  const Contact = () => {
+    return (
+      <div className="flex flex-col justify-center text-center items-center">
+        Future Contact Information
+      </div>
+    );
+  };
+  const Projects = () => {
+    return (
+      <div className="flex flex-col justify-center text-center items-center">
+        Future Projects
+      </div>
     );
   };
 
