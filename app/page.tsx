@@ -5,51 +5,6 @@ import { SocialIcon } from "react-social-icons";
 import { useState } from "react";
 
 export default function Home() {
-  const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    country: "australia",
-    subject: "",
-    content: "",
-  });
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    // Assuming you have a server or API to send emails
-    const emailData = {
-      to: "l.keller129@gmail.com",
-      subject: formData.subject,
-      content: formData.content,
-    };
-
-    try {
-      // Send emailData to your server or API to handle email sending
-      // Example using fetch:
-      const response = await fetch("/send-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(emailData),
-      });
-
-      if (response.ok) {
-        alert("Email sent successfully!");
-      } else {
-        alert("Failed to send email. Please try again later.");
-      }
-    } catch (error) {
-      console.error("Error sending email:", error);
-    }
-  };
-
   const [selected, setSelected] = useState("bio");
   const items = [
     {
